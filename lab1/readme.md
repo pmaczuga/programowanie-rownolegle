@@ -3,9 +3,9 @@
 ## Cel zajęć
 Wprowadzenie do programowania w MPI oraz komunikacji między procesami.
 
-UWAGA: zadania na zajęciach oraz domowe można realizować w wybranym języku: C lub Python.  
+**UWAGA: zadania na zajęciach oraz domowe można realizować w wybranym języku: C lub Python.  
 Zalecane jest używanie C, ponieważ biblioteka dla Pythona nie implementuje całej specyfikacji MPI oraz ma braki w dokumentacji.  
-Student odpowiada za to, żeby w pełni zrealizować zadanie i problemy wynikające z wyboru biblioteki nie będą okolicznością łagodzącą przy ocenianiu.  
+Student odpowiada za to, żeby w pełni zrealizować zadanie i problemy wynikające z wyboru biblioteki nie będą okolicznością łagodzącą przy ocenianiu.**  
 
 ## Środowisko vCluster
  - `ssh vnode-01.dydaktyka.icsr.agh.edu.pl`
@@ -63,7 +63,7 @@ Przeanalizuj i uruchom przykłady z tutoriala dla C oraz Pythona. Pozostałe mo�
  - **W jaki sposób należy dokonać pomiaru?**
  - **Do czego służy `MPI_Barrier?`**
 
-### Ćwiczenie 3 - "z gwazdką"
+### Ćwiczenie 3 - "z gwiaizdką"
  - Zaimplementuj aplikację, w której każdy node przesyła do kolejnego otrzymaną daną - **token ring**.
  - Sprawdź zwykłą i synchroniczną komunikację.
  - Jak poprzednio dokonaj pomiarów.
