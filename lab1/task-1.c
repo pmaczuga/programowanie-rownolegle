@@ -135,7 +135,7 @@ int main(int argc, char** argv) {
       }
       data[0] = 'f';
       MPI_Send(data, data_size, MPI_CHAR, dest, tag, MPI_COMM_WORLD); // Tell that finished
-      bandwidth = (int) (data_size * count * 8) / (time * MB);
+      bandwidth = (int) (8.0 * data_size * count) / (time * MB);
 
       fprintf(fp, "%d; %d\n", data_size, bandwidth);
       data_size += STEP;
@@ -182,7 +182,7 @@ int main(int argc, char** argv) {
       }
       data[0] = 'f';
       MPI_Send(data, data_size, MPI_CHAR, dest, tag, MPI_COMM_WORLD); // Tell that finished
-      bandwidth = (int) (data_size * count * 8) / (time * MB);
+      bandwidth = (int) (8.0 * data_size * count) / (time * MB);
 
       fprintf(fp, "%d; %d\n", data_size, bandwidth);
       data_size += STEP;
