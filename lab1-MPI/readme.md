@@ -4,6 +4,10 @@
 Główny program: `mpi.c`.  
 Zapisuje do pliku podanego jako argument opóźnienie i przepustowść dla przesyłanie standardowego i synchronicznego.  
 
+Sprawozdanie:  
+`lab1_MPI.pdf`, oraz w formie docx: `lab1_MPI.docx`  
+Dane do sprawozdania: `lab1_MPI_dane.xlsx`
+
 Pliki z hostami:  
 `allnodes`, `single_node`, `two_nodes_same_host`, `two_nodes_other_hosts`.  
 Zawierają listę node'ów, na których uruchamiane są procesy.
