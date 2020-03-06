@@ -1,4 +1,19 @@
-# Laboratorium 1 - komunikacja PP
+# Laboratorium 1 - komunikacja PP (MPI)
+
+## Opis zawartości
+Główny program: `mpi.c`.  
+Zapisuje do pliku podanego jako argument opóźnienie i przepustowść dla przesyłanie standardowego i synchronicznego.  
+
+Pliki z hostami:  
+`allnodes`, `single_node`, `two_nodes_same_host`, `two_nodes_other_hosts`.  
+Zawierają listę node'ów, na których uruchamiane są procesy.
+
+`script.sh` uruchamia skompilowany program na dla róznych kombinacji node'ów.
+
+Pliki do testowania MPI: 
+`hello_world.c`, `send_recv.c`, `ping_pong.c`
+
+Dokładny opis zadania poniżej.
 
 ## Cel zajęć
 Wprowadzenie do programowania w MPI oraz komunikacji między procesami.

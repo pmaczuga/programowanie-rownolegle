@@ -7,13 +7,13 @@
 #define KB 1024
 #define MB 1024 * 1024
 
-#define SAMPLE_COUNT 100000
+#define SAMPLE_COUNT 10000
 #define SMALL_BUF_SIZE 5
 
-#define SEND_FOR_SECONDS 2.0
-#define MIN_BUF_SIZE 256
-#define MAX_BUF_SIZE 64 * KB
-#define STEP 256
+#define SEND_FOR_SECONDS 10.0
+#define MIN_BUF_SIZE 4 * KB
+#define MAX_BUF_SIZE 80 * KB
+#define STEP 4 * KB
 
 int main(int argc, char** argv) {
   MPI_Init(&argc, &argv);
@@ -66,7 +66,7 @@ int main(int argc, char** argv) {
 
     double delay = time * (1000.0 / (SAMPLE_COUNT * 2.0));
     fprintf(fp, "%.20f\n", delay);
-    printf(" DONE!\n");
+    printf(" %f\n", delay);
   }
   // Receive
   if (world_rank == 1) {
@@ -96,7 +96,7 @@ int main(int argc, char** argv) {
 
     double delay = time * (1000.0 / (SAMPLE_COUNT * 2.0));
     fprintf(fp, "%.20f\n", delay);
-    printf(" DONE!\n");
+    printf(" %f\n", delay);
   }
   // Receive
   if (world_rank == 1) {
