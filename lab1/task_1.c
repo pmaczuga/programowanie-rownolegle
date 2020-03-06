@@ -10,10 +10,10 @@
 #define SAMPLE_COUNT 100000
 #define SMALL_BUF_SIZE 5
 
-#define SEND_FOR_SECONDS 10.0
-#define MIN_BUF_SIZE 512 * KB
-#define MAX_BUF_SIZE 32 * MB
-#define STEP 512 * KB
+#define SEND_FOR_SECONDS 2.0
+#define MIN_BUF_SIZE 256
+#define MAX_BUF_SIZE 64 * KB
+#define STEP 256
 
 int main(int argc, char** argv) {
   MPI_Init(&argc, &argv);
@@ -120,7 +120,7 @@ int main(int argc, char** argv) {
     printf("\n");
     int data_size = MIN_BUF_SIZE;
     while (data_size <= MAX_BUF_SIZE) {
-      printf("Calculating Standard Send bandwidth for %d B...", data_size);
+      printf("Calculating Standard Send bandwidth for:  %d B ... ", data_size);
       char *data = calloc(data_size, sizeof(char));
       double time = 0.0;
       int bandwidth = 0;
@@ -135,12 +135,12 @@ int main(int argc, char** argv) {
       }
       data[0] = 'f';
       MPI_Send(data, data_size, MPI_CHAR, dest, tag, MPI_COMM_WORLD); // Tell that finished
-      bandwidth = (int) (8.0 * data_size * count) / (time * MB);
+      bandwidth = (int) ((8.0 * 2.0 * data_size * count) / (time * MB));
 
       fprintf(fp, "%d; %d\n", data_size, bandwidth);
       data_size += STEP;
       free(data);
-      printf(" DONE!\n");
+      printf("DONE! - count = %d\ttime = %f\tbandwidth = %d\n", count, time, bandwidth);
     }
     fprintf(fp, "\n");
   }
@@ -182,12 +182,12 @@ int main(int argc, char** argv) {
       }
       data[0] = 'f';
       MPI_Send(data, data_size, MPI_CHAR, dest, tag, MPI_COMM_WORLD); // Tell that finished
-      bandwidth = (int) (8.0 * data_size * count) / (time * MB);
+      bandwidth = (int) ((2.0 * 8.0 * data_size * count) / (time * MB));
 
       fprintf(fp, "%d; %d\n", data_size, bandwidth);
       data_size += STEP;
       free(data);
-      printf(" DONE!\n");
+      printf("DONE! - count = %d\ttime = %f\tbandwidth = %d\n", count, time, bandwidth);
     }
   }
   if (world_rank == 1) {

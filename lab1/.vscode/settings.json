@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "bitset": "c",
+        "algorithm": "c",
+        "array": "c",
+        "string": "c",
+        "functional": "c"
+    }
+}
