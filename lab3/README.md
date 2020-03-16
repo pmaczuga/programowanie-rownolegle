@@ -22,17 +22,16 @@ Przykładem problemu naturalnie równoległego jest obliczanie (przybliżanie) l
 
 Algorytm obliczania liczby π metodą MC korzysta z zależności pomiędzy wartością liczby π a stosunkiem pola powierzchni koła o promieniu r do pola powierzchni kwadratu opisanego na tym kole:
 
-P_k_o / P_k_w = (\pi r^2) / (4r^2) = \pi / 4
-- pole kwadratu: <img src="https://render.githubusercontent.com/render/math?math=P_kw = (2r)^2 = 4r^2">,
-- pole koła: <img src="https://render.githubusercontent.com/render/math?math=P_ko = \pi r^2">,
-- stosunek pola koła do pola kwadratu: <img src="https://render.githubusercontent.com/render/math?math=\P_ko / P_kw = (\pi r^2) / (4r^2) = \pi / 4">,
-- finalnie: <img src="https://render.githubusercontent.com/render/math?math=\pi = 4 * P_ko / P_kw">.
+- pole kwadratu: <img src="https://render.githubusercontent.com/render/math?math=P_{kw} = (2r)^2 = 4r^2">,
+- pole koła: <img src="https://render.githubusercontent.com/render/math?math=P_{ko} = \pi r^2">,
+- stosunek pola koła do pola kwadratu: <img src="https://render.githubusercontent.com/render/math?math=\P_{ko} / P_{kw} = (\pi r^2) / (4r^2) = \pi / 4">,
+- finalnie: <img src="https://render.githubusercontent.com/render/math?math=\pi = 4 * P_{ko} / P_{kw}">.
 
-W efekcie, obliczenie liczby π metodą MC wymaga wykonania następujących kroków:
+W efekcie, obliczenie liczby <img src="https://render.githubusercontent.com/render/math?math=\pi"> metodą MC wymaga wykonania następujących kroków:
 
 1. Wylosowanie pewnej liczby punktów rozłożonych równomiernie w kwadracie o boku 2r - przybliżamy w ten sposób pole kwadratu.
 2. Zliczenie tych z punktów, które znajdują się wewnątrz koła wpisanego w ten kwadrat - przybliżamy w ten sposób pole koła.
-3. Podzielić drugą wartość przez pierwszą, a wynik pomnożyć przez 4 - przybliżamy w ten sposób π.
+3. Podzielić drugą wartość przez pierwszą, a wynik pomnożyć przez 4 - przybliżamy w ten sposób <img src="https://render.githubusercontent.com/render/math?math=\pi">.
 
 Dla ułatwienia, problem można uprościć do jednej ćwiartki koła i kwadratu, a jako promień przyjąć wartość 1. Losujemy zatem punkty równomiernie rozłożone w niebieskim kwadracie, a dodatkowo zliczamy te leżące w zielonym obszarze (patrz rysunek poniżej).
 
@@ -43,9 +42,9 @@ Zrównoleglenie tego algorytmu jest naturalne (jak sugeruje nazwa naturalna rów
 ## Przepieg ćwiczenia
 
 ### Wersja sekwencyjna
-Stwórz sekwencyjną wersję programu wykorzystującego metodę MC do wyznaczania liczby `$\pi$`. Opis algorytmu znajdziesz we wprowadzeniu. Zapewnij możliwość podania liczby punktów jako argument wywołania programu.
+Stwórz sekwencyjną wersję programu wykorzystującego metodę MC do wyznaczania liczby <img src="https://render.githubusercontent.com/render/math?math=\pi">. Opis algorytmu znajdziesz we wprowadzeniu. Zapewnij możliwość podania liczby punktów jako argument wywołania programu.
 
-Uruchom kod kilkukrotnie upewniając się, że zwracany wynik jest zbliżony do `$\pi$`. **Zachowaj kod** do wgrania jako jeden z wyników laboratorium.
+Uruchom kod kilkukrotnie upewniając się, że zwracany wynik jest zbliżony do <img src="https://render.githubusercontent.com/render/math?math=\pi">. **Zachowaj kod** do wgrania jako jeden z wyników laboratorium.
 
 *Opcjonalnie*: uruchom program wielokrotnie dla różnych rozmiarów problemu (np. 1e2, 1e4, 1e6, 1e8), dla każdego wyliczając średni wynik i odchylenie standardowe. Jaki wpływ na te wartości ma rozmiar problemu? Wyniki możesz załączyć w dowolnej postaci (tekst, wykres) jako jeden z wyników laboratorium.
 
@@ -53,12 +52,12 @@ Wskazówki:
 
 - Wylosowanie liczb równomiernie rozłożonych na prostokącie jest równoważne z wylosowaniem obu współrzędnych niezależnie.
 - W celu sprawdzenia czy punkt należy do okręgu możesz wykorzystać równanie okręgu lub wzór na długość wektora.
-- W celu obserwacji efektywności zrównoleglenia konieczne będzie losowanie dużych liczb punktów, np. `$10^12$`. Upewnij się, że zmienne pomieszczą takie liczby bez przepełnienia.
+- W celu obserwacji efektywności zrównoleglenia konieczne będzie losowanie dużych liczb punktów, np. <img src="https://render.githubusercontent.com/render/math?math=\10^{12}">. Upewnij się, że zmienne pomieszczą takie liczby bez przepełnienia.
 
 ### Wersja równoległa
 Zmodyfikuj program tak, żeby korzystając z MPI rozdzielał problem na wiele procesorów. Dodaj pomiar czasu w odpowiednich miejscach. Uważaj, żeby mierzyć tylko faktyczny czas pracy programu - dodaj bariery tam gdzie to konieczne. 
 
-Program nie wymaga wymiany informacji na początku obliczeń - nie będzie więc potrzebna komunikacja typu *broadcast* / *scatter*. Konieczne jest jednak zebranie wyników obliczeń każdego z procesorów w jednym i obliczenie `$\pi$`. Możesz skorzystać z funkcji *gather*, jednak w tym przypadku lepszym wyjściem będzie funkcja *reduce*. Ponieważ znana jest liczba wszystkich punktów, potrzebna jest tylko suma punktów wewnątrz okręgu we wszystkich losowaniach - poszczególne wyniki osobno nie są potrzebne. 
+Program nie wymaga wymiany informacji na początku obliczeń - nie będzie więc potrzebna komunikacja typu *broadcast* / *scatter*. Konieczne jest jednak zebranie wyników obliczeń każdego z procesorów w jednym i obliczenie <img src="https://render.githubusercontent.com/render/math?math=\pi">. Możesz skorzystać z funkcji *gather*, jednak w tym przypadku lepszym wyjściem będzie funkcja *reduce*. Ponieważ znana jest liczba wszystkich punktów, potrzebna jest tylko suma punktów wewnątrz okręgu we wszystkich losowaniach - poszczególne wyniki osobno nie są potrzebne. 
 
 Uruchom kod kilkukrotnie upewniając się, że wynik nadal jest zbliżony do π, a czas maleje dla większej liczby procesorów (do liczby procesorów wspieranej przez maszynę, na której jest uruchamiany). **Zachowaj kod** do wgrania jako jeden z wyników laboratorium.
 
