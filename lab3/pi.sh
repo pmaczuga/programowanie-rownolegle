@@ -7,7 +7,7 @@
 #SBATCH --account=plgpmaczuga2020a
 
 module add plgrid/tools/openmpi/1.6.5-gnu-4.9.2-ib
-mpicc par.c -o par -lm
+mpicc -std=c99 par.c -o par -lm
 
 for ((i=1; i<=$2; i++)); do
     echo "Calculating for $i processes"
