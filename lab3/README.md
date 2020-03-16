@@ -3,7 +3,7 @@
 ## Sprawozdanie
 Z powodu problemów z dostępem do Zeusa i Prometeusza ćwiczenie zostało wykonane na vnode'ach używanych w laboratorium 1.
 
-Opis zawrtości:
+Opis zawrtości:   
 [seq.c](seq.c) - program w wersji sekwencyjnej   
 [par.c](par.c) - program w wersji równoległej na MPI   
 [pi.sh](pi.sh) - skryp, który byłby uruchomiony na Zeusie   
@@ -22,7 +22,8 @@ Przykładem problemu naturalnie równoległego jest obliczanie (przybliżanie) l
 
 Algorytm obliczania liczby π metodą MC korzysta z zależności pomiędzy wartością liczby π a stosunkiem pola powierzchni koła o promieniu r do pola powierzchni kwadratu opisanego na tym kole:
 
-- pole kwadratu: `$P_k_w = (2r)^2 = 4r^2$`,
+<img src="https://render.githubusercontent.com/render/math?math=P_k_w = (2r)^2 = 4r^2">
+- pole kwadratu: <img src="https://render.githubusercontent.com/render/math?math=P_k_w = (2r)^2 = 4r^2">,
 - pole koła: `$P_k_o = \pi r^2$`,
 - stosunek pola koła do pola kwadratu: `$P_k_o / P_k_w = (\pi r^2) / (4r^2) = \pi / 4$`,
 - finalnie: `$\pi = 4 * P_k_o / P_k_w$`.
