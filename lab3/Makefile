@@ -1,7 +1,10 @@
-all: seq
+all: seq par
 
 seq: seq.c
-	gcc $^ -o $@ -lm
+	gcc -std=c99 $^ -o $@ -lm
+
+par: par.c
+	mpicc -std=c99 $^ -o $@ -lm
 
 clean:
 	rm -f *.o seq

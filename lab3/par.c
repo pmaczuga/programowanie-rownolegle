@@ -13,8 +13,10 @@ int main(int argc, char** argv) {
   int world_size;
   MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
+  srand(time(NULL) * world_rank);
+
   MPI_Barrier(MPI_COMM_WORLD);
-  float start = MPI_Wtime();
+  double start = MPI_Wtime();
 
   long count = atol(argv[1]);
   long my_count = count / world_size;
@@ -33,15 +35,15 @@ int main(int argc, char** argv) {
 
   long sum = 0;
   MPI_Reduce( &within_circle, &sum, 1, MPI_LONG, MPI_SUM, 0, MPI_COMM_WORLD );
-  float end = MPI_Wtime();
+  double end = MPI_Wtime();
 
   if (world_rank == 0) {
-    float time_taken = (end - start) * 1000.0;
+    double time_taken = (end - start) * 1000.0;
 
-    double pi = (double)within_circle / (double)count;
+    double pi = (double)sum / (double)count;
     pi = 4.0 * pi;
     printf("PI = %.15lf\n", pi);
-    printf("It took: %f ms\n\n", time_taken);
+    printf("It took: %lf ms\n\n", time_taken);
   }
 
   MPI_Finalize();
