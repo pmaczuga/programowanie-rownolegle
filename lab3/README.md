@@ -22,10 +22,11 @@ Przykładem problemu naturalnie równoległego jest obliczanie (przybliżanie) l
 
 Algorytm obliczania liczby π metodą MC korzysta z zależności pomiędzy wartością liczby π a stosunkiem pola powierzchni koła o promieniu r do pola powierzchni kwadratu opisanego na tym kole:
 
-- pole kwadratu: <img src="https://render.githubusercontent.com/render/math?math=P_k_w = (2r)^2 = 4r^2">,
-- pole koła: `$P_k_o = \pi r^2$`,
-- stosunek pola koła do pola kwadratu: `$P_k_o / P_k_w = (\pi r^2) / (4r^2) = \pi / 4$`,
-- finalnie: `$\pi = 4 * P_k_o / P_k_w$`.
+P_k_o / P_k_w = (\pi r^2) / (4r^2) = \pi / 4
+- pole kwadratu: <img src="https://render.githubusercontent.com/render/math?math=P_kw = (2r)^2 = 4r^2">,
+- pole koła: <img src="https://render.githubusercontent.com/render/math?math=P_ko = \pi r^2">,
+- stosunek pola koła do pola kwadratu: <img src="https://render.githubusercontent.com/render/math?math=\P_ko / P_kw = (\pi r^2) / (4r^2) = \pi / 4">,
+- finalnie: <img src="https://render.githubusercontent.com/render/math?math=\pi = 4 * P_ko / P_kw">.
 
 W efekcie, obliczenie liczby π metodą MC wymaga wykonania następujących kroków:
 
