@@ -9,7 +9,8 @@
 module add plgrid/tools/openmpi/1.6.5-gnu-4.9.2-ib
 mpicc -std=c99 par.c -o par -lm
 
-echo "Not scalling. Size: $1, Max processes: $2"
+echo "Scalling. Size: $1, Max processes: $2"
 for ((i=1; i<=$2; i++)); do
-    mpiexec -np $i ./par $1
+    size=$( expr "$i" '*' "$1")
+    mpiexec -np $i ./par $size
 done
