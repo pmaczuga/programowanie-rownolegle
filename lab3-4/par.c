@@ -42,8 +42,10 @@ int main(int argc, char** argv) {
 
     double pi = (double)sum / (double)count;
     pi = 4.0 * pi;
-    printf("PI = %.15lf\n", pi);
-    printf("It took: %lf ms\n\n", time_taken);
+    // printf("PI = %.15lf\n", pi);
+    // printf("It took: %lf ms\n\n", time_taken);
+    // Problem size; processes; time
+    printf("%ld; %d; %lf\n", count, world_size, time_taken);
   }
 
   MPI_Finalize();
