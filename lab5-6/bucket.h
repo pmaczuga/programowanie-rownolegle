@@ -10,7 +10,6 @@ typedef struct Node
 typedef struct Bucket
 {
     struct Node *first;
-    int size; 
 } Bucket;
 
 void bucket_init(Bucket *bucket);

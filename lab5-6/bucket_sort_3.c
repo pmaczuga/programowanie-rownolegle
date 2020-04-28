@@ -11,9 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-    srand(time(NULL));
-
-
     if (argc < 3)
     {
         printf("bucket_sort_3 [threads] [size] [chunk]\n");
@@ -29,7 +26,7 @@ int main(int argc, char *argv[])
     double normalized;
     int thread_num;                 // Number of current thread
     int *vector = malloc(size * sizeof(int));
-    int random_range = 1000000000;
+    int random_range = 10000000;
     
     double start[6], end[6], time_taken[6];
     unsigned int seed;
@@ -68,6 +65,7 @@ int main(int argc, char *argv[])
             }
         end[1] = omp_get_wtime();
         
+
         // Insert values to proper buckets
         start[2] = omp_get_wtime();
         # pragma omp for schedule(static, chunk)
@@ -109,7 +107,7 @@ int main(int argc, char *argv[])
         // Calculate index and put back sorted
         start[5] = omp_get_wtime();
 
-        // Calculate starting array index
+        // Calculate how many number are in buckets with indexes: 0 to (size/threads * thread_num)
         if (thread_num == 0)
         {
             for (j=1; j < threads; j++)

@@ -55,7 +55,6 @@ Node *_bucket_pop_node(Bucket *bucket)
 
 void bucket_init(Bucket *bucket)
 {
-    bucket->size = 0;
     bucket->first = NULL;
 }
 
