@@ -11,24 +11,24 @@
 
 int main(int argc, char *argv[])
 {
-    if (argc < 3)
+    if (argc != 5)
     {
-        printf("bucket_sort_3 [threads] [size] [chunk]\n");
+        printf("%s [threads] [size] [chunk] [buckets]\n", argv[0]);
         return 0;
     }
 
-    int threads = atoi(argv[1]);    // Number of threads
-    int size = atoi(argv[2]);       // Size of vector to sort
-    int chunk = atoi(argv[3]);      // Size of chunk - used in schedule
+    int threads = atoi(argv[1]);        // Number of threads
+    int size = atoi(argv[2]);           // Size of vector to sort
+    int chunk = atoi(argv[3]);          // Size of chunk - used in schedule
+    int buckets_count = atoi(argv[4]);  // Number of buckets
 
     omp_set_num_threads(threads);
     int i, j, bucket_index, range_index, current_elem;
     double normalized;
-    int thread_num;                 // Number of current thread
     int *vector = malloc(size * sizeof(int));
     int random_range = 10000000;
     
-    double start[6], end[6], time_taken[6];
+    double start[7], end[7], time_taken[7];
     unsigned int seed;
 
     printf("Threads: %d, Size: %d, chunk: %d\n", threads, size, chunk);
@@ -38,14 +38,16 @@ int main(int argc, char *argv[])
     int **elements_count = malloc(sizeof(int *) * threads);   // Array of size [threads][threads]. Number of elements in range for each thread.
                                                             // For instance elements_count[2][0] represet number of smallest elements that was
                                                             // counted by thread number 2
-    #pragma omp parallel shared(vector, chunk, buckets, elements_count) private(i, j, thread_num, seed, bucket_index, range_index, normalized, current_elem)
+    #pragma omp parallel shared(vector, chunk, buckets, elements_count) private(i, j, seed, bucket_index, range_index, normalized, current_elem)
     {
-        thread_num = omp_get_thread_num();
+        int thread_num = omp_get_thread_num();
+        if (thread_num == 0)
+            start[6] = omp_get_wtime();
         seed = ((int) time(NULL)) ^ thread_num;
  
         // Initialzie buckets and elements_count
-        buckets[thread_num] = malloc(sizeof(Bucket) * size);
-        for (i=0; i < size; i++)
+        buckets[thread_num] = malloc(sizeof(Bucket) * buckets_count);
+        for (i=0; i < buckets_count; i++)
         {
             bucket_init(&buckets[thread_num][i]);
         }
@@ -55,34 +57,43 @@ int main(int argc, char *argv[])
             elements_count[thread_num][i] = 0;
         }
         #pragma omp barrier
+        if (thread_num == 0)
+            end[6] = omp_get_wtime();
 
         // Fill vector with random int values
-        start[1] = omp_get_wtime();
+        if (thread_num == 0)
+            start[1] = omp_get_wtime();
         #pragma omp for schedule(static, chunk)
             for (i=0; i < size; i++)
             {
                 vector[i] = rand_r(&seed)%random_range;
             }
-        end[1] = omp_get_wtime();
+        if (thread_num == 0)
+            end[1] = omp_get_wtime();
         
 
         // Insert values to proper buckets
-        start[2] = omp_get_wtime();
+        if (thread_num == 0)
+            start[2] = omp_get_wtime();
         # pragma omp for schedule(static, chunk)
             for (i=0; i < size; i++)
             {
                 normalized = ((double) vector[i]) / ((double) random_range);
-                bucket_index = (int) (normalized * size);
+                bucket_index = (int) (normalized * buckets_count);
                 bucket_insert(&buckets[thread_num][bucket_index], vector[i]);
-                range_index = (int) (normalized * threads);
+                range_index = bucket_index / (buckets_count / threads);
+                if (range_index == threads)
+                    range_index = threads - 1;
                 elements_count[thread_num][range_index]++;
             }
-        end[2] = omp_get_wtime();
+        if (thread_num == 0)
+            end[2] = omp_get_wtime();
 
         // Merge buckets
-        start[3] = omp_get_wtime();
+        if (thread_num == 0)
+            start[3] = omp_get_wtime();
         # pragma omp for schedule(static, chunk)
-            for (i=0; i < size; i++)
+            for (i=0; i < buckets_count; i++)
             {
                 for (j=1; j < threads; j++)
                 {
@@ -93,19 +104,23 @@ int main(int argc, char *argv[])
         {
             elements_count[0][thread_num] += elements_count[j][thread_num];
         }
-        end[3] = omp_get_wtime();
+        if (thread_num == 0)
+            end[3] = omp_get_wtime();
 
         // Sort buckets
-        start[4] = omp_get_wtime();
+        if (thread_num == 0)
+            start[4] = omp_get_wtime();
         # pragma omp for schedule(static, chunk)
-            for (i=0; i < size; i++)
+            for (i=0; i < buckets_count; i++)
             {
                 bucket_sort(&buckets[0][i]);
             }
-        end[4] = omp_get_wtime();
+        if (thread_num == 0)
+            end[4] = omp_get_wtime();
 
         // Calculate index and put back sorted
-        start[5] = omp_get_wtime();
+        if (thread_num == 0)
+            start[5] = omp_get_wtime();
 
         // Calculate how many number are in buckets with indexes: 0 to (size/threads * thread_num)
         if (thread_num == 0)
@@ -118,15 +133,15 @@ int main(int argc, char *argv[])
        #pragma omp barrier
 
         // Put sorted elements back to vector
-        bucket_index = (size/threads)*(thread_num+1);
+        bucket_index = (buckets_count/threads)*(thread_num+1);
         if (thread_num == threads-1)
-            bucket_index = size;
+            bucket_index = buckets_count;
         if (thread_num == 0)
             j = 0;
         else
             j = elements_count[0][thread_num-1];
 
-        for (i=(size/threads) * thread_num; i < bucket_index; i++)
+        for (i=(buckets_count/threads) * thread_num; i < bucket_index; i++)
         {
             current_elem = bucket_pop(&buckets[0][i]);
             while(current_elem >= 0)
@@ -136,9 +151,10 @@ int main(int argc, char *argv[])
                 current_elem = bucket_pop(&buckets[0][i]);
             }
         }
-        end[5] = omp_get_wtime();
-
         #pragma omp barrier
+        if (thread_num == 0)
+            end[5] = omp_get_wtime();
+
         // Clean up
         free(buckets[thread_num]);
         free(elements_count[thread_num]);
@@ -147,9 +163,10 @@ int main(int argc, char *argv[])
     free(elements_count);
     end[0] = omp_get_wtime();
 
-    for (i=0; i < 6; i++)
+    for (i=0; i < 7; i++)
         time_taken[i] = (end[i]-start[i])*1000;
     printf("\n");
+    printf("Init time        : %lf\n", time_taken[6]);
     printf("Random fill time : %lf\n", time_taken[1]);
     printf("Split time       : %lf\n", time_taken[2]);
     printf("Merge time       : %lf\n", time_taken[3]);
