@@ -56,6 +56,7 @@ Node *_bucket_pop_node(Bucket *bucket)
 void bucket_init(Bucket *bucket)
 {
     bucket->first = NULL;
+    bucket->size = 0;
 }
 
 void bucket_insert(Bucket *bucket, int elem)
@@ -63,15 +64,20 @@ void bucket_insert(Bucket *bucket, int elem)
     Node *node = malloc(sizeof(Node));
     node->data = elem;
     _bucket_insert_node(bucket, node);
+    bucket->size += 1;
 }
 
 int bucket_pop(Bucket *bucket)
 {
-    Node *node = _bucket_pop_node(bucket);
-    if (node == NULL)
+    Node *popped = bucket->first;
+    if (popped == NULL)
+    {
         return -1;
-    int elem = node->data;
-    free(node);
+    }
+    bucket->first = popped->next;
+    int elem = popped->data;
+    free(popped);
+    bucket->size -= 1;
     return elem;
 }
 
@@ -97,6 +103,8 @@ void bucket_merge(Bucket *to, Bucket *from)
         _bucket_insert_node(to, elem);
         elem = _bucket_pop_node(from);
     }
+    to->size += from->size;
+    from->size = 0;
 }
 
 int bucket_is_empty(Bucket *bucket)
@@ -120,6 +128,7 @@ void bucket_free(Bucket *bucket)
 
 void bucket_print(Bucket *bucket)
 {
+    printf("Bucket (%d): ", bucket->size);
     printf("[");
     Node *node = bucket->first;
     while(node != NULL)

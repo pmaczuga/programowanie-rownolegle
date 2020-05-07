@@ -1,0 +1,2400 @@
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.928667
+Random fill time : 20.353074
+Split time       : 170.338393
+Merge time       : 0.692664
+Sort time        : 254.468483
+Put back time    : 238.621928
+Full time        : 689.662523
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 5.951363
+Random fill time : 10.711027
+Split time       : 135.204707
+Merge time       : 101.361773
+Sort time        : 257.044098
+Put back time    : 192.762180
+Full time        : 846.133970
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.810623
+Random fill time : 20.277132
+Split time       : 169.120814
+Merge time       : 0.660306
+Sort time        : 255.144231
+Put back time    : 237.450350
+Full time        : 687.733460
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.950900
+Random fill time : 10.230310
+Split time       : 129.552896
+Merge time       : 102.646670
+Sort time        : 256.634356
+Put back time    : 167.732012
+Full time        : 813.359476
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.750294
+Random fill time : 20.294967
+Split time       : 169.018995
+Merge time       : 0.650214
+Sort time        : 255.651074
+Put back time    : 237.996906
+Full time        : 688.599670
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.892889
+Random fill time : 10.253297
+Split time       : 133.110910
+Merge time       : 102.256659
+Sort time        : 257.170791
+Put back time    : 172.775195
+Full time        : 825.226450
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.795859
+Random fill time : 20.270665
+Split time       : 167.591426
+Merge time       : 0.662010
+Sort time        : 255.416467
+Put back time    : 237.608696
+Full time        : 686.581114
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.841799
+Random fill time : 10.890357
+Split time       : 134.779120
+Merge time       : 103.652617
+Sort time        : 256.149835
+Put back time    : 170.571630
+Full time        : 824.593427
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.857484
+Random fill time : 20.194977
+Split time       : 170.530745
+Merge time       : 0.660817
+Sort time        : 257.159055
+Put back time    : 238.277649
+Full time        : 691.921577
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.844837
+Random fill time : 10.229983
+Split time       : 133.610852
+Merge time       : 103.623035
+Sort time        : 256.927641
+Put back time    : 170.887693
+Full time        : 821.035651
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.831036
+Random fill time : 20.122091
+Split time       : 168.115444
+Merge time       : 0.660725
+Sort time        : 256.702328
+Put back time    : 238.128286
+Full time        : 688.801906
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.817039
+Random fill time : 10.251963
+Split time       : 138.067542
+Merge time       : 101.572497
+Sort time        : 256.053521
+Put back time    : 169.777406
+Full time        : 823.759751
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.849882
+Random fill time : 21.405787
+Split time       : 167.346509
+Merge time       : 0.663397
+Sort time        : 256.589969
+Put back time    : 236.493200
+Full time        : 687.623322
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 5.035760
+Random fill time : 10.535751
+Split time       : 130.673949
+Merge time       : 100.812866
+Sort time        : 255.377844
+Put back time    : 168.414199
+Full time        : 811.054940
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.825224
+Random fill time : 20.191486
+Split time       : 169.103969
+Merge time       : 0.649622
+Sort time        : 257.632157
+Put back time    : 240.406812
+Full time        : 693.085142
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.831285
+Random fill time : 10.189694
+Split time       : 138.068589
+Merge time       : 100.743585
+Sort time        : 255.895392
+Put back time    : 172.888334
+Full time        : 822.413901
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 5.526155
+Random fill time : 20.141902
+Split time       : 175.034332
+Merge time       : 0.671670
+Sort time        : 255.859410
+Put back time    : 237.800154
+Full time        : 695.525778
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.895048
+Random fill time : 10.583466
+Split time       : 135.799302
+Merge time       : 100.947135
+Sort time        : 257.981707
+Put back time    : 170.088185
+Full time        : 819.953945
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 4.804215
+Random fill time : 20.120559
+Split time       : 168.361038
+Merge time       : 0.663900
+Sort time        : 255.309092
+Put back time    : 238.652508
+Full time        : 688.181372
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 250000
+
+Time of parts of program [ms]:
+Init time        : 5.050442
+Random fill time : 10.213085
+Split time       : 134.225169
+Merge time       : 101.498504
+Sort time        : 257.805297
+Put back time    : 169.813400
+Full time        : 819.087844
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.672357
+Random fill time : 21.193170
+Split time       : 186.764465
+Merge time       : 1.320161
+Sort time        : 251.979103
+Put back time    : 245.546001
+Full time        : 715.720976
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.781539
+Random fill time : 10.698019
+Split time       : 159.283319
+Merge time       : 103.847349
+Sort time        : 256.109661
+Put back time    : 179.598920
+Full time        : 860.620439
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.807855
+Random fill time : 21.346600
+Split time       : 185.577677
+Merge time       : 1.324400
+Sort time        : 253.924330
+Put back time    : 245.885037
+Full time        : 717.125279
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.110097
+Random fill time : 10.569642
+Split time       : 152.482445
+Merge time       : 102.154184
+Sort time        : 254.102788
+Put back time    : 170.791039
+Full time        : 843.311748
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.742232
+Random fill time : 20.221125
+Split time       : 182.162753
+Merge time       : 1.307546
+Sort time        : 253.891850
+Put back time    : 244.483957
+Full time        : 711.056245
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.807903
+Random fill time : 10.407935
+Split time       : 161.545056
+Merge time       : 102.521379
+Sort time        : 252.536988
+Put back time    : 172.867725
+Full time        : 849.589124
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.751915
+Random fill time : 20.251733
+Split time       : 186.280789
+Merge time       : 1.315016
+Sort time        : 253.868548
+Put back time    : 246.621412
+Full time        : 717.350449
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.115470
+Random fill time : 10.822377
+Split time       : 154.538731
+Merge time       : 101.094889
+Sort time        : 253.811387
+Put back time    : 188.560307
+Full time        : 858.168461
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.788179
+Random fill time : 20.246020
+Split time       : 182.839071
+Merge time       : 1.317650
+Sort time        : 252.695926
+Put back time    : 244.720596
+Full time        : 710.868174
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.830517
+Random fill time : 10.875709
+Split time       : 154.628237
+Merge time       : 101.445230
+Sort time        : 254.147453
+Put back time    : 169.541816
+Full time        : 839.794828
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.763567
+Random fill time : 20.221520
+Split time       : 189.361606
+Merge time       : 1.319515
+Sort time        : 252.766533
+Put back time    : 244.765810
+Full time        : 717.456402
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.857432
+Random fill time : 10.517036
+Split time       : 152.813351
+Merge time       : 104.648360
+Sort time        : 257.510600
+Put back time    : 172.773087
+Full time        : 847.472714
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.806426
+Random fill time : 20.268865
+Split time       : 185.515405
+Merge time       : 1.340987
+Sort time        : 252.539203
+Put back time    : 246.896462
+Full time        : 715.622959
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.764455
+Random fill time : 10.297311
+Split time       : 158.019004
+Merge time       : 102.312568
+Sort time        : 254.374146
+Put back time    : 176.036939
+Full time        : 854.773055
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.715532
+Random fill time : 20.267626
+Split time       : 184.585453
+Merge time       : 1.321419
+Sort time        : 253.279655
+Put back time    : 244.244244
+Full time        : 712.663236
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.086177
+Random fill time : 10.347212
+Split time       : 160.773194
+Merge time       : 103.648775
+Sort time        : 252.122497
+Put back time    : 176.325907
+Full time        : 854.951912
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.680536
+Random fill time : 20.306605
+Split time       : 189.090320
+Merge time       : 1.331993
+Sort time        : 253.956291
+Put back time    : 244.170550
+Full time        : 719.017490
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.854017
+Random fill time : 10.896962
+Split time       : 160.815095
+Merge time       : 106.363128
+Sort time        : 254.690226
+Put back time    : 194.919883
+Full time        : 877.306728
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.724706
+Random fill time : 21.312417
+Split time       : 183.416456
+Merge time       : 1.334517
+Sort time        : 253.339678
+Put back time    : 245.204251
+Full time        : 713.601521
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.698147
+Random fill time : 10.704657
+Split time       : 157.642269
+Merge time       : 101.738108
+Sort time        : 254.019500
+Put back time    : 169.329577
+Full time        : 843.412892
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.573634
+Random fill time : 20.337134
+Split time       : 237.261231
+Merge time       : 2.637164
+Sort time        : 232.672049
+Put back time    : 254.153852
+Full time        : 765.113277
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.693719
+Random fill time : 10.435640
+Split time       : 183.457379
+Merge time       : 105.542063
+Sort time        : 233.827192
+Put back time    : 178.862795
+Full time        : 868.912587
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.515360
+Random fill time : 20.326922
+Split time       : 230.568570
+Merge time       : 2.625420
+Sort time        : 239.372198
+Put back time    : 252.368356
+Full time        : 763.205419
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.994939
+Random fill time : 10.983016
+Split time       : 181.173510
+Merge time       : 109.098820
+Sort time        : 238.328364
+Put back time    : 176.752384
+Full time        : 869.313771
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.548523
+Random fill time : 20.412140
+Split time       : 226.254160
+Merge time       : 2.638515
+Sort time        : 233.724021
+Put back time    : 253.841832
+Full time        : 753.634167
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.719652
+Random fill time : 10.533458
+Split time       : 184.833211
+Merge time       : 104.459301
+Sort time        : 234.523485
+Put back time    : 176.733108
+Full time        : 865.152860
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.525560
+Random fill time : 21.488069
+Split time       : 229.815542
+Merge time       : 2.652365
+Sort time        : 232.955591
+Put back time    : 252.931932
+Full time        : 756.592141
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.330452
+Random fill time : 10.363962
+Split time       : 182.100856
+Merge time       : 106.876511
+Sort time        : 234.242052
+Put back time    : 173.232965
+Full time        : 864.843708
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.413435
+Random fill time : 20.525531
+Split time       : 227.539927
+Merge time       : 2.645639
+Sort time        : 233.669423
+Put back time    : 251.646470
+Full time        : 752.661018
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.944058
+Random fill time : 10.826260
+Split time       : 182.921918
+Merge time       : 106.158195
+Sort time        : 232.544797
+Put back time    : 175.809053
+Full time        : 862.786775
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.363679
+Random fill time : 20.323250
+Split time       : 227.321951
+Merge time       : 2.688382
+Sort time        : 234.689201
+Put back time    : 251.414192
+Full time        : 754.249517
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.559409
+Random fill time : 10.651201
+Split time       : 183.868311
+Merge time       : 106.811431
+Sort time        : 232.878867
+Put back time    : 176.665461
+Full time        : 864.872386
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.585362
+Random fill time : 21.452820
+Split time       : 232.024313
+Merge time       : 2.631205
+Sort time        : 238.465363
+Put back time    : 257.336402
+Full time        : 768.718750
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.929940
+Random fill time : 10.321969
+Split time       : 175.678223
+Merge time       : 104.899667
+Sort time        : 233.956353
+Put back time    : 173.007326
+Full time        : 852.773489
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.382683
+Random fill time : 20.364296
+Split time       : 231.550804
+Merge time       : 2.648311
+Sort time        : 233.844631
+Put back time    : 251.890318
+Full time        : 758.378923
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.563551
+Random fill time : 10.591154
+Split time       : 187.194110
+Merge time       : 109.296226
+Sort time        : 236.719291
+Put back time    : 178.407787
+Full time        : 878.939076
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.561021
+Random fill time : 21.456445
+Split time       : 224.435780
+Merge time       : 2.622600
+Sort time        : 233.782960
+Put back time    : 252.498455
+Full time        : 751.565879
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.197172
+Random fill time : 10.458589
+Split time       : 185.342751
+Merge time       : 104.842645
+Sort time        : 232.671061
+Put back time    : 176.860413
+Full time        : 863.893625
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.559784
+Random fill time : 20.392678
+Split time       : 228.209071
+Merge time       : 2.642620
+Sort time        : 233.068427
+Put back time    : 252.204684
+Full time        : 753.308934
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.417701
+Random fill time : 10.419029
+Split time       : 183.133257
+Merge time       : 104.810244
+Sort time        : 234.465208
+Put back time    : 178.352436
+Full time        : 864.156965
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.076097
+Random fill time : 20.405583
+Split time       : 271.581023
+Merge time       : 5.254943
+Sort time        : 220.484140
+Put back time    : 272.462878
+Full time        : 822.437987
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.949306
+Random fill time : 10.869010
+Split time       : 193.706287
+Merge time       : 64.441558
+Sort time        : 109.785342
+Put back time    : 177.993879
+Full time        : 733.750513
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.348409
+Random fill time : 20.443753
+Split time       : 271.810900
+Merge time       : 5.258922
+Sort time        : 220.615661
+Put back time    : 271.670436
+Full time        : 823.607622
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.328736
+Random fill time : 10.760040
+Split time       : 199.269477
+Merge time       : 63.905822
+Sort time        : 109.657312
+Put back time    : 180.517299
+Full time        : 737.352082
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.551724
+Random fill time : 20.384627
+Split time       : 274.061924
+Merge time       : 5.244678
+Sort time        : 220.240562
+Put back time    : 270.745549
+Full time        : 824.634942
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.361665
+Random fill time : 10.884260
+Split time       : 194.666373
+Merge time       : 63.648668
+Sort time        : 109.734267
+Put back time    : 180.757041
+Full time        : 729.845313
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.344718
+Random fill time : 21.543650
+Split time       : 268.007560
+Merge time       : 5.271629
+Sort time        : 219.657333
+Put back time    : 273.309947
+Full time        : 820.324243
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.682267
+Random fill time : 10.372393
+Split time       : 199.442888
+Merge time       : 64.300200
+Sort time        : 109.865130
+Put back time    : 183.671830
+Full time        : 738.577386
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.484195
+Random fill time : 20.496854
+Split time       : 274.875648
+Merge time       : 5.264864
+Sort time        : 219.441392
+Put back time    : 273.080080
+Full time        : 827.068351
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.285770
+Random fill time : 10.404748
+Split time       : 194.095967
+Merge time       : 64.607761
+Sort time        : 110.085676
+Put back time    : 180.249161
+Full time        : 730.115529
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.192251
+Random fill time : 20.389900
+Split time       : 271.329391
+Merge time       : 5.263109
+Sort time        : 219.266037
+Put back time    : 271.698503
+Full time        : 821.515334
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.557630
+Random fill time : 10.569853
+Split time       : 199.314666
+Merge time       : 64.439534
+Sort time        : 109.559758
+Put back time    : 179.821011
+Full time        : 740.505692
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.634113
+Random fill time : 20.395673
+Split time       : 267.493332
+Merge time       : 5.249684
+Sort time        : 220.673848
+Put back time    : 270.898428
+Full time        : 817.529658
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.767811
+Random fill time : 10.629846
+Split time       : 201.968433
+Merge time       : 65.092946
+Sort time        : 112.468347
+Put back time    : 185.727078
+Full time        : 750.919957
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.348596
+Random fill time : 20.354425
+Split time       : 271.156437
+Merge time       : 5.254740
+Sort time        : 220.746923
+Put back time    : 270.598492
+Full time        : 821.888438
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.414539
+Random fill time : 10.393408
+Split time       : 194.936316
+Merge time       : 63.853075
+Sort time        : 109.819198
+Put back time    : 179.386016
+Full time        : 729.514225
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.143165
+Random fill time : 20.534798
+Split time       : 273.907177
+Merge time       : 5.240156
+Sort time        : 220.280669
+Put back time    : 274.465191
+Full time        : 826.996163
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.703644
+Random fill time : 10.750374
+Split time       : 194.711643
+Merge time       : 64.856809
+Sort time        : 110.685341
+Put back time    : 179.691728
+Full time        : 730.835156
+Threads: 1, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.157031
+Random fill time : 20.383973
+Split time       : 275.040013
+Merge time       : 5.297340
+Sort time        : 220.181292
+Put back time    : 273.471088
+Full time        : 827.974768
+Threads: 2, Size: 2000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.604661
+Random fill time : 10.412516
+Split time       : 199.069625
+Merge time       : 64.303418
+Sort time        : 110.256938
+Put back time    : 179.515119
+Full time        : 734.072569
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.748256
+Random fill time : 29.892369
+Split time       : 260.649058
+Merge time       : 0.999873
+Sort time        : 417.729507
+Put back time    : 386.677444
+Full time        : 1102.945324
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.193073
+Random fill time : 10.598095
+Split time       : 175.039922
+Merge time       : 247.928948
+Sort time        : 418.027643
+Put back time    : 195.310569
+Full time        : 1237.599032
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.878433
+Random fill time : 29.895843
+Split time       : 262.433173
+Merge time       : 1.002178
+Sort time        : 417.167654
+Put back time    : 390.363955
+Full time        : 1107.969897
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 8.010594
+Random fill time : 10.741006
+Split time       : 177.115785
+Merge time       : 248.347114
+Sort time        : 418.580533
+Put back time    : 193.989912
+Full time        : 1241.020981
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.818921
+Random fill time : 29.802414
+Split time       : 273.285952
+Merge time       : 0.990029
+Sort time        : 417.360071
+Put back time    : 394.455366
+Full time        : 1122.978870
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.787219
+Random fill time : 10.304475
+Split time       : 171.258723
+Merge time       : 248.882037
+Sort time        : 417.470795
+Put back time    : 195.674196
+Full time        : 1235.721119
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.870504
+Random fill time : 29.818535
+Split time       : 267.406946
+Merge time       : 0.988289
+Sort time        : 418.734063
+Put back time    : 393.245687
+Full time        : 1117.338422
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.809146
+Random fill time : 11.045649
+Split time       : 172.140371
+Merge time       : 250.230569
+Sort time        : 418.462619
+Put back time    : 199.199366
+Full time        : 1244.639992
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.133114
+Random fill time : 30.434318
+Split time       : 261.395591
+Merge time       : 0.985254
+Sort time        : 417.523318
+Put back time    : 387.290098
+Full time        : 1103.984559
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.122690
+Random fill time : 10.881771
+Split time       : 181.406681
+Merge time       : 250.080925
+Sort time        : 418.432258
+Put back time    : 197.269069
+Full time        : 1249.429952
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.533335
+Random fill time : 29.864221
+Split time       : 269.780533
+Merge time       : 0.994600
+Sort time        : 419.021649
+Put back time    : 388.790584
+Full time        : 1116.515785
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.279671
+Random fill time : 10.291567
+Split time       : 179.108743
+Merge time       : 249.157263
+Sort time        : 418.289749
+Put back time    : 196.682152
+Full time        : 1244.542390
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.779957
+Random fill time : 29.838156
+Split time       : 268.590275
+Merge time       : 0.996970
+Sort time        : 416.254910
+Put back time    : 386.928013
+Full time        : 1109.626244
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.910261
+Random fill time : 10.880340
+Split time       : 183.025684
+Merge time       : 247.002716
+Sort time        : 418.641095
+Put back time    : 195.537528
+Full time        : 1246.751187
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.767599
+Random fill time : 29.853757
+Split time       : 265.615485
+Merge time       : 0.980758
+Sort time        : 417.760450
+Put back time    : 390.048925
+Full time        : 1111.323376
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.898619
+Random fill time : 10.868506
+Split time       : 176.541315
+Merge time       : 247.217187
+Sort time        : 417.875055
+Put back time    : 200.851588
+Full time        : 1245.314069
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.750637
+Random fill time : 30.808077
+Split time       : 263.051401
+Merge time       : 0.989860
+Sort time        : 418.410762
+Put back time    : 392.332751
+Full time        : 1112.614167
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.812788
+Random fill time : 10.676131
+Split time       : 175.257836
+Merge time       : 249.458849
+Sort time        : 418.311761
+Put back time    : 201.425770
+Full time        : 1246.857217
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 6.812643
+Random fill time : 29.837626
+Split time       : 262.666705
+Merge time       : 1.001171
+Sort time        : 417.960248
+Put back time    : 390.139957
+Full time        : 1108.667793
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 375000
+
+Time of parts of program [ms]:
+Init time        : 7.147307
+Random fill time : 10.384817
+Split time       : 171.311664
+Merge time       : 248.432441
+Sort time        : 417.812704
+Put back time    : 198.594865
+Full time        : 1237.838584
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.718235
+Random fill time : 29.916676
+Split time       : 315.620373
+Merge time       : 1.976900
+Sort time        : 413.808556
+Put back time    : 398.882149
+Full time        : 1173.149834
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.548409
+Random fill time : 11.061894
+Split time       : 197.030260
+Merge time       : 257.040389
+Sort time        : 412.081419
+Put back time    : 196.370911
+Full time        : 1270.233409
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.571082
+Random fill time : 29.933545
+Split time       : 320.194757
+Merge time       : 1.987113
+Sort time        : 412.863024
+Put back time    : 400.098338
+Full time        : 1179.125908
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.005335
+Random fill time : 11.009688
+Split time       : 196.386578
+Merge time       : 256.371719
+Sort time        : 412.419643
+Put back time    : 198.928675
+Full time        : 1272.165475
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.772548
+Random fill time : 29.914018
+Split time       : 312.766284
+Merge time       : 1.965543
+Sort time        : 413.189617
+Put back time    : 399.601350
+Full time        : 1170.513745
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.625724
+Random fill time : 10.410805
+Split time       : 189.759353
+Merge time       : 260.691277
+Sort time        : 416.400753
+Put back time    : 195.277544
+Full time        : 1270.322319
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.700456
+Random fill time : 31.012622
+Split time       : 313.676565
+Merge time       : 1.981658
+Sort time        : 413.050642
+Put back time    : 395.879118
+Full time        : 1168.563040
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.751515
+Random fill time : 10.572021
+Split time       : 190.112800
+Merge time       : 256.564727
+Sort time        : 413.136792
+Put back time    : 199.218947
+Full time        : 1267.862194
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.738203
+Random fill time : 31.011999
+Split time       : 311.833915
+Merge time       : 1.999195
+Sort time        : 412.794394
+Put back time    : 396.345860
+Full time        : 1166.972010
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.080726
+Random fill time : 10.550817
+Split time       : 197.218749
+Merge time       : 255.327135
+Sort time        : 413.255597
+Put back time    : 201.391851
+Full time        : 1274.468906
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.689611
+Random fill time : 29.972563
+Split time       : 323.249343
+Merge time       : 2.038132
+Sort time        : 414.983075
+Put back time    : 403.481163
+Full time        : 1186.638214
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.051865
+Random fill time : 10.526806
+Split time       : 192.965347
+Merge time       : 255.736361
+Sort time        : 412.804740
+Put back time    : 199.853632
+Full time        : 1268.456500
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.551901
+Random fill time : 29.952903
+Split time       : 331.429490
+Merge time       : 1.966845
+Sort time        : 413.689003
+Put back time    : 399.239181
+Full time        : 1190.271697
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.712496
+Random fill time : 10.511849
+Split time       : 203.335998
+Merge time       : 266.578620
+Sort time        : 415.182469
+Put back time    : 228.607593
+Full time        : 1321.845279
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.252614
+Random fill time : 31.332282
+Split time       : 321.021576
+Merge time       : 1.967999
+Sort time        : 412.592786
+Put back time    : 400.706370
+Full time        : 1180.161646
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.677115
+Random fill time : 10.664004
+Split time       : 192.715887
+Merge time       : 256.367806
+Sort time        : 412.866285
+Put back time    : 203.076783
+Full time        : 1272.984269
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.692392
+Random fill time : 30.985037
+Split time       : 312.430184
+Merge time       : 1.976408
+Sort time        : 414.502687
+Put back time    : 398.952887
+Full time        : 1171.787308
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.911067
+Random fill time : 10.498733
+Split time       : 195.151193
+Merge time       : 256.701715
+Sort time        : 413.237163
+Put back time    : 198.561510
+Full time        : 1270.345814
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 12.738702
+Random fill time : 29.949472
+Split time       : 317.491030
+Merge time       : 2.009219
+Sort time        : 413.221950
+Put back time    : 397.882459
+Full time        : 1173.501048
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 750000
+
+Time of parts of program [ms]:
+Init time        : 13.087934
+Random fill time : 10.940790
+Split time       : 193.834802
+Merge time       : 256.070910
+Sort time        : 413.078680
+Put back time    : 197.096163
+Full time        : 1267.959322
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 24.628502
+Random fill time : 31.091589
+Split time       : 385.323468
+Merge time       : 3.928002
+Sort time        : 376.072028
+Put back time    : 409.424917
+Full time        : 1230.694422
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 26.386847
+Random fill time : 10.413525
+Split time       : 201.037754
+Merge time       : 192.807793
+Sort time        : 249.934438
+Put back time    : 199.803341
+Full time        : 1063.268259
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.394238
+Random fill time : 30.072649
+Split time       : 404.118074
+Merge time       : 3.929051
+Sort time        : 378.592346
+Put back time    : 412.704916
+Full time        : 1255.283132
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.091400
+Random fill time : 11.050592
+Split time       : 205.283602
+Merge time       : 192.091380
+Sort time        : 250.301005
+Put back time    : 200.089688
+Full time        : 1066.112617
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 20.278500
+Random fill time : 30.030751
+Split time       : 387.493569
+Merge time       : 3.948378
+Sort time        : 380.861456
+Put back time    : 412.862585
+Full time        : 1235.915188
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 26.374172
+Random fill time : 11.111903
+Split time       : 206.515318
+Merge time       : 195.446041
+Sort time        : 259.941888
+Put back time    : 203.173506
+Full time        : 1083.987104
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 24.694730
+Random fill time : 30.094558
+Split time       : 383.907579
+Merge time       : 3.935483
+Sort time        : 375.181690
+Put back time    : 410.812136
+Full time        : 1228.811380
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.987436
+Random fill time : 10.324986
+Split time       : 201.533551
+Merge time       : 193.809280
+Sort time        : 249.931500
+Put back time    : 198.457869
+Full time        : 1063.575661
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.390120
+Random fill time : 30.005746
+Split time       : 387.870519
+Merge time       : 3.931523
+Sort time        : 374.901030
+Put back time    : 407.178613
+Full time        : 1229.714015
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 24.968258
+Random fill time : 11.059690
+Split time       : 200.890533
+Merge time       : 191.695499
+Sort time        : 252.138110
+Put back time    : 201.760554
+Full time        : 1064.214195
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.371664
+Random fill time : 30.062739
+Split time       : 400.501584
+Merge time       : 3.952402
+Sort time        : 374.297809
+Put back time    : 410.572901
+Full time        : 1245.153091
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 26.627362
+Random fill time : 10.478605
+Split time       : 201.403821
+Merge time       : 193.042977
+Sort time        : 250.198133
+Put back time    : 201.322282
+Full time        : 1064.840056
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.424973
+Random fill time : 30.032785
+Split time       : 387.212420
+Merge time       : 3.943442
+Sort time        : 374.194937
+Put back time    : 407.666299
+Full time        : 1228.937412
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.548018
+Random fill time : 10.642388
+Split time       : 216.215527
+Merge time       : 193.502173
+Sort time        : 254.059183
+Put back time    : 206.691962
+Full time        : 1088.764977
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 24.659229
+Random fill time : 30.168620
+Split time       : 383.832622
+Merge time       : 3.975019
+Sort time        : 374.745657
+Put back time    : 409.606599
+Full time        : 1227.188527
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.926456
+Random fill time : 10.528191
+Split time       : 209.046745
+Merge time       : 192.581224
+Sort time        : 250.261034
+Put back time    : 203.345572
+Full time        : 1075.338960
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 24.617675
+Random fill time : 31.104841
+Split time       : 386.009178
+Merge time       : 3.952848
+Sort time        : 374.211859
+Put back time    : 408.481529
+Full time        : 1228.582375
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 26.559058
+Random fill time : 10.408727
+Split time       : 206.694274
+Merge time       : 192.632562
+Sort time        : 251.785237
+Put back time    : 198.557861
+Full time        : 1067.706203
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 25.596563
+Random fill time : 30.053754
+Split time       : 388.747356
+Merge time       : 3.956510
+Sort time        : 376.011798
+Put back time    : 409.042571
+Full time        : 1233.822551
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 1500000
+
+Time of parts of program [ms]:
+Init time        : 26.512779
+Random fill time : 10.812733
+Split time       : 201.566596
+Merge time       : 193.286049
+Sort time        : 249.374549
+Put back time    : 196.283147
+Full time        : 1058.848796
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.192358
+Random fill time : 30.283609
+Split time       : 437.236577
+Merge time       : 7.870742
+Sort time        : 394.443587
+Put back time    : 441.351139
+Full time        : 1360.689251
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 50.277149
+Random fill time : 10.439916
+Split time       : 222.928560
+Merge time       : 121.632387
+Sort time        : 116.795029
+Put back time    : 206.257606
+Full time        : 914.415500
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 50.158651
+Random fill time : 30.003338
+Split time       : 434.550527
+Merge time       : 7.910539
+Sort time        : 348.468281
+Put back time    : 436.257257
+Full time        : 1307.989340
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 51.372060
+Random fill time : 10.332195
+Split time       : 213.695356
+Merge time       : 130.736737
+Sort time        : 115.936988
+Put back time    : 206.805670
+Full time        : 914.784222
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.413141
+Random fill time : 30.064444
+Split time       : 435.195252
+Merge time       : 7.882532
+Sort time        : 349.390565
+Put back time    : 435.825537
+Full time        : 1308.164660
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.901172
+Random fill time : 10.370631
+Split time       : 209.931565
+Merge time       : 121.773940
+Sort time        : 116.231332
+Put back time    : 201.348255
+Full time        : 896.063164
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.609034
+Random fill time : 30.038731
+Split time       : 445.717975
+Merge time       : 7.873994
+Sort time        : 348.225734
+Put back time    : 438.939828
+Full time        : 1320.830390
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 52.807056
+Random fill time : 10.518551
+Split time       : 213.982277
+Merge time       : 121.841218
+Sort time        : 116.386761
+Put back time    : 212.336364
+Full time        : 912.926850
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 48.814253
+Random fill time : 31.107578
+Split time       : 433.955804
+Merge time       : 7.864644
+Sort time        : 350.004399
+Put back time    : 439.905703
+Full time        : 1312.039682
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 50.896039
+Random fill time : 10.690870
+Split time       : 212.196308
+Merge time       : 121.541758
+Sort time        : 115.604017
+Put back time    : 211.465288
+Full time        : 909.167022
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.146168
+Random fill time : 30.042208
+Split time       : 442.318700
+Merge time       : 7.943246
+Sort time        : 349.046715
+Put back time    : 437.625828
+Full time        : 1316.456064
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 50.959522
+Random fill time : 10.644867
+Split time       : 217.651650
+Merge time       : 122.703628
+Sort time        : 115.895623
+Put back time    : 205.378798
+Full time        : 908.046878
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.042519
+Random fill time : 31.170738
+Split time       : 430.411210
+Merge time       : 7.861796
+Sort time        : 348.873586
+Put back time    : 436.439705
+Full time        : 1304.166024
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 50.799860
+Random fill time : 10.771382
+Split time       : 214.889923
+Merge time       : 122.415921
+Sort time        : 119.620952
+Put back time    : 212.846449
+Full time        : 917.660770
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 48.879273
+Random fill time : 30.040938
+Split time       : 431.160578
+Merge time       : 7.883651
+Sort time        : 349.235041
+Put back time    : 438.754468
+Full time        : 1306.364653
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 51.347970
+Random fill time : 10.878714
+Split time       : 207.222714
+Merge time       : 121.445934
+Sort time        : 116.315237
+Put back time    : 203.480835
+Full time        : 895.796191
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 48.221853
+Random fill time : 30.101227
+Split time       : 433.045713
+Merge time       : 7.902345
+Sort time        : 353.560566
+Put back time    : 443.375470
+Full time        : 1316.579185
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 42.483105
+Random fill time : 10.935124
+Split time       : 209.380078
+Merge time       : 121.634966
+Sort time        : 116.466618
+Put back time    : 206.370049
+Full time        : 893.494827
+Threads: 1, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 49.002916
+Random fill time : 31.178103
+Split time       : 436.218344
+Merge time       : 7.897123
+Sort time        : 350.029481
+Put back time    : 436.459837
+Full time        : 1311.164779
+Threads: 3, Size: 3000000, chunk: 1000000, buckets: 3000000
+
+Time of parts of program [ms]:
+Init time        : 52.426442
+Random fill time : 10.970514
+Split time       : 208.853021
+Merge time       : 121.520737
+Sort time        : 115.968846
+Put back time    : 201.795115
+Full time        : 896.212136
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.020116
+Random fill time : 39.789310
+Split time       : 371.787177
+Merge time       : 1.314152
+Sort time        : 578.738489
+Put back time    : 537.913543
+Full time        : 1538.829582
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.161709
+Random fill time : 10.282083
+Split time       : 267.518961
+Merge time       : 408.625553
+Sort time        : 580.952274
+Put back time    : 215.770936
+Full time        : 1700.867111
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.701468
+Random fill time : 40.608715
+Split time       : 375.447276
+Merge time       : 1.311067
+Sort time        : 579.580452
+Put back time    : 546.875552
+Full time        : 1552.804094
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.824059
+Random fill time : 11.046298
+Split time       : 264.095639
+Merge time       : 410.159684
+Sort time        : 579.481255
+Put back time    : 212.056258
+Full time        : 1694.352427
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.725355
+Random fill time : 39.596225
+Split time       : 365.765679
+Merge time       : 1.318767
+Sort time        : 580.083539
+Put back time    : 541.250424
+Full time        : 1536.964193
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.094566
+Random fill time : 10.379325
+Split time       : 257.370100
+Merge time       : 412.093297
+Sort time        : 579.783250
+Put back time    : 213.392226
+Full time        : 1689.569309
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.737519
+Random fill time : 40.650610
+Split time       : 367.318872
+Merge time       : 1.321120
+Sort time        : 582.191997
+Put back time    : 540.234133
+Full time        : 1540.751392
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.139102
+Random fill time : 10.363509
+Split time       : 257.363742
+Merge time       : 407.737894
+Sort time        : 581.722261
+Put back time    : 214.772916
+Full time        : 1688.485090
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.713984
+Random fill time : 39.616206
+Split time       : 367.542302
+Merge time       : 1.317718
+Sort time        : 580.346189
+Put back time    : 546.440830
+Full time        : 1544.216604
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.383680
+Random fill time : 11.121014
+Split time       : 256.424351
+Merge time       : 412.357523
+Sort time        : 583.499753
+Put back time    : 220.656377
+Full time        : 1701.207450
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.726495
+Random fill time : 39.591639
+Split time       : 368.807646
+Merge time       : 1.331287
+Sort time        : 579.322020
+Put back time    : 536.924572
+Full time        : 1534.968442
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.393775
+Random fill time : 10.304997
+Split time       : 327.404196
+Merge time       : 413.556700
+Sort time        : 579.916160
+Put back time    : 214.830901
+Full time        : 1763.708777
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.633374
+Random fill time : 40.657694
+Split time       : 367.728888
+Merge time       : 1.320324
+Sort time        : 578.867038
+Put back time    : 538.024457
+Full time        : 1535.494700
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.895970
+Random fill time : 11.139351
+Split time       : 337.633755
+Merge time       : 407.865121
+Sort time        : 582.458151
+Put back time    : 220.941164
+Full time        : 1777.711900
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.705461
+Random fill time : 39.628427
+Split time       : 365.904803
+Merge time       : 1.320400
+Sort time        : 580.625494
+Put back time    : 589.489425
+Full time        : 1585.918306
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.365053
+Random fill time : 10.995000
+Split time       : 260.378942
+Merge time       : 410.778019
+Sort time        : 580.547446
+Put back time    : 214.659704
+Full time        : 1705.626361
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 8.736358
+Random fill time : 39.520448
+Split time       : 368.709630
+Merge time       : 1.338852
+Sort time        : 578.198454
+Put back time    : 592.654160
+Full time        : 1589.417825
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.510933
+Random fill time : 11.022393
+Split time       : 256.676825
+Merge time       : 413.402891
+Sort time        : 580.445492
+Put back time    : 216.689342
+Full time        : 1695.517454
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.106978
+Random fill time : 39.625525
+Split time       : 389.689198
+Merge time       : 1.309833
+Sort time        : 582.010548
+Put back time    : 537.793545
+Full time        : 1560.026936
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 500000
+
+Time of parts of program [ms]:
+Init time        : 9.228063
+Random fill time : 10.316421
+Split time       : 261.754346
+Merge time       : 410.375576
+Sort time        : 581.093605
+Put back time    : 220.374717
+Full time        : 1701.663878
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.383495
+Random fill time : 39.745536
+Split time       : 460.937773
+Merge time       : 2.633325
+Sort time        : 571.949000
+Put back time    : 552.871346
+Full time        : 1645.999158
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.245382
+Random fill time : 10.987392
+Split time       : 314.364192
+Merge time       : 433.595756
+Sort time        : 572.558031
+Put back time    : 216.810237
+Full time        : 1770.752530
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.569834
+Random fill time : 40.923876
+Split time       : 467.975872
+Merge time       : 2.641556
+Sort time        : 572.861369
+Put back time    : 552.068057
+Full time        : 1653.262805
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 18.543012
+Random fill time : 10.976656
+Split time       : 371.448344
+Merge time       : 432.627211
+Sort time        : 573.050713
+Put back time    : 220.786945
+Full time        : 1832.004242
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.674560
+Random fill time : 40.819428
+Split time       : 455.984138
+Merge time       : 2.625994
+Sort time        : 570.652944
+Put back time    : 552.389547
+Full time        : 1639.370012
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 18.728696
+Random fill time : 11.096570
+Split time       : 261.163378
+Merge time       : 434.063681
+Sort time        : 574.419796
+Put back time    : 215.042930
+Full time        : 1718.977767
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.595924
+Random fill time : 39.753668
+Split time       : 454.559847
+Merge time       : 2.636582
+Sort time        : 571.684922
+Put back time    : 552.266985
+Full time        : 1637.716663
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.465131
+Random fill time : 11.003833
+Split time       : 287.844274
+Merge time       : 433.747859
+Sort time        : 571.102975
+Put back time    : 221.849355
+Full time        : 1747.673087
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.538184
+Random fill time : 40.681290
+Split time       : 463.620836
+Merge time       : 2.624271
+Sort time        : 572.641432
+Put back time    : 557.075760
+Full time        : 1653.415703
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.303489
+Random fill time : 11.135324
+Split time       : 267.910735
+Merge time       : 432.420369
+Sort time        : 572.578048
+Put back time    : 215.639270
+Full time        : 1721.894705
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.480518
+Random fill time : 39.718961
+Split time       : 463.185473
+Merge time       : 2.623462
+Sort time        : 571.794722
+Put back time    : 551.183199
+Full time        : 1645.236388
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.360612
+Random fill time : 11.206364
+Split time       : 393.693764
+Merge time       : 432.519892
+Sort time        : 571.813832
+Put back time    : 218.557544
+Full time        : 1852.658866
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.500096
+Random fill time : 39.653084
+Split time       : 462.957578
+Merge time       : 2.638211
+Sort time        : 573.512932
+Put back time    : 549.721193
+Full time        : 1646.470337
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 18.334854
+Random fill time : 11.114069
+Split time       : 263.204684
+Merge time       : 434.885162
+Sort time        : 574.566208
+Put back time    : 223.779937
+Full time        : 1731.659260
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.560758
+Random fill time : 39.797134
+Split time       : 457.451830
+Merge time       : 2.638785
+Sort time        : 571.902811
+Put back time    : 553.822625
+Full time        : 1642.396458
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.109922
+Random fill time : 10.378972
+Split time       : 400.264933
+Merge time       : 432.313370
+Sort time        : 577.009925
+Put back time    : 214.446449
+Full time        : 1856.215124
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.398920
+Random fill time : 40.578887
+Split time       : 458.357485
+Merge time       : 2.632945
+Sort time        : 571.904551
+Put back time    : 554.382120
+Full time        : 1644.472705
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 17.441424
+Random fill time : 11.200485
+Split time       : 267.183323
+Merge time       : 433.018901
+Sort time        : 572.493888
+Put back time    : 214.987952
+Full time        : 1721.047981
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 16.499533
+Random fill time : 40.680707
+Split time       : 463.437824
+Merge time       : 2.611505
+Sort time        : 572.337833
+Put back time    : 555.449473
+Full time        : 1651.259320
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 1000000
+
+Time of parts of program [ms]:
+Init time        : 18.101450
+Random fill time : 10.873527
+Split time       : 269.112618
+Merge time       : 437.252711
+Sort time        : 572.674901
+Put back time    : 219.448315
+Full time        : 1734.773542
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.576992
+Random fill time : 40.745699
+Split time       : 534.330287
+Merge time       : 5.282714
+Sort time        : 514.112687
+Put back time    : 567.499011
+Full time        : 1694.726375
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 34.412637
+Random fill time : 10.953016
+Split time       : 263.028684
+Merge time       : 251.437144
+Sort time        : 260.595923
+Put back time    : 213.160444
+Full time        : 1246.254902
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.296375
+Random fill time : 40.756018
+Split time       : 533.670276
+Merge time       : 5.264941
+Sort time        : 515.192477
+Put back time    : 565.987544
+Full time        : 1693.348588
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 34.499417
+Random fill time : 10.691816
+Split time       : 318.890856
+Merge time       : 251.591184
+Sort time        : 257.088949
+Put back time    : 213.867158
+Full time        : 1292.278596
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.423083
+Random fill time : 39.777222
+Split time       : 545.813824
+Merge time       : 5.248421
+Sort time        : 519.719738
+Put back time    : 568.323233
+Full time        : 1712.727352
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 35.042530
+Random fill time : 11.069028
+Split time       : 259.824783
+Merge time       : 250.725949
+Sort time        : 256.981784
+Put back time    : 220.103430
+Full time        : 1239.941598
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.289533
+Random fill time : 39.656600
+Split time       : 560.812382
+Merge time       : 5.267756
+Sort time        : 514.555653
+Put back time    : 565.634218
+Full time        : 1719.630512
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 35.543863
+Random fill time : 11.052998
+Split time       : 251.897535
+Merge time       : 251.836414
+Sort time        : 259.343037
+Put back time    : 216.571330
+Full time        : 1231.750561
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.123383
+Random fill time : 39.658951
+Split time       : 538.311912
+Merge time       : 5.266939
+Sort time        : 514.438757
+Put back time    : 564.640016
+Full time        : 1695.853530
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 34.118005
+Random fill time : 10.481917
+Split time       : 250.861668
+Merge time       : 253.067229
+Sort time        : 262.291063
+Put back time    : 253.329205
+Full time        : 1279.660081
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.181226
+Random fill time : 39.653266
+Split time       : 546.679521
+Merge time       : 5.269632
+Sort time        : 514.422962
+Put back time    : 564.849221
+Full time        : 1704.479652
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.876618
+Random fill time : 10.946218
+Split time       : 279.052973
+Merge time       : 251.332908
+Sort time        : 259.558089
+Put back time    : 219.104100
+Full time        : 1258.654439
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.469260
+Random fill time : 39.732536
+Split time       : 543.433789
+Merge time       : 5.254873
+Sort time        : 518.139029
+Put back time    : 566.879340
+Full time        : 1707.322441
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.589160
+Random fill time : 11.145520
+Split time       : 282.497576
+Merge time       : 251.165885
+Sort time        : 259.825022
+Put back time    : 220.700066
+Full time        : 1263.731151
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.378451
+Random fill time : 40.766216
+Split time       : 536.967131
+Merge time       : 5.257938
+Sort time        : 513.431577
+Put back time    : 564.756913
+Full time        : 1693.753982
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 33.919402
+Random fill time : 10.735928
+Split time       : 258.661921
+Merge time       : 250.594654
+Sort time        : 258.387045
+Put back time    : 221.131329
+Full time        : 1238.359231
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.985259
+Random fill time : 40.714922
+Split time       : 542.984325
+Merge time       : 5.265792
+Sort time        : 514.620221
+Put back time    : 565.245750
+Full time        : 1702.222826
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 34.727183
+Random fill time : 10.293418
+Split time       : 262.993400
+Merge time       : 252.355735
+Sort time        : 262.183552
+Put back time    : 220.999253
+Full time        : 1256.363884
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 32.256165
+Random fill time : 40.808540
+Split time       : 539.209796
+Merge time       : 5.255003
+Sort time        : 524.655927
+Put back time    : 572.436753
+Full time        : 1714.796960
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 2000000
+
+Time of parts of program [ms]:
+Init time        : 34.558315
+Random fill time : 11.146755
+Split time       : 277.927190
+Merge time       : 250.625733
+Sort time        : 255.953004
+Put back time    : 214.805038
+Full time        : 1250.084260
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 65.772769
+Random fill time : 39.710796
+Split time       : 595.897160
+Merge time       : 10.548855
+Sort time        : 479.538269
+Put back time    : 601.723073
+Full time        : 1793.739194
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.273336
+Random fill time : 11.185074
+Split time       : 255.708871
+Merge time       : 165.739272
+Sort time        : 119.394345
+Put back time    : 212.946315
+Full time        : 1042.292451
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 64.763780
+Random fill time : 40.669759
+Split time       : 594.995268
+Merge time       : 10.581674
+Sort time        : 481.355370
+Put back time    : 603.868117
+Full time        : 1796.542496
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 67.477593
+Random fill time : 11.183385
+Split time       : 272.459928
+Merge time       : 166.498604
+Sort time        : 119.593332
+Put back time    : 220.439940
+Full time        : 1069.929609
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.200366
+Random fill time : 39.615458
+Split time       : 614.698026
+Merge time       : 10.516407
+Sort time        : 478.059786
+Put back time    : 603.183557
+Full time        : 1812.852136
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.654410
+Random fill time : 10.352462
+Split time       : 296.739052
+Merge time       : 166.634653
+Sort time        : 119.796867
+Put back time    : 224.707005
+Full time        : 1097.628687
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 64.838882
+Random fill time : 39.611884
+Split time       : 598.354229
+Merge time       : 10.674414
+Sort time        : 516.540399
+Put back time    : 612.382891
+Full time        : 1842.755530
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 65.896881
+Random fill time : 10.537830
+Split time       : 260.557943
+Merge time       : 166.062117
+Sort time        : 119.685419
+Put back time    : 212.410448
+Full time        : 1047.728997
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 63.100021
+Random fill time : 40.136631
+Split time       : 594.491170
+Merge time       : 10.509306
+Sort time        : 478.318503
+Put back time    : 603.944587
+Full time        : 1790.831456
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.508586
+Random fill time : 11.202057
+Split time       : 433.201578
+Merge time       : 166.100945
+Sort time        : 120.537155
+Put back time    : 221.250755
+Full time        : 1231.950650
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 64.414006
+Random fill time : 40.793086
+Split time       : 594.990401
+Merge time       : 10.529937
+Sort time        : 480.173943
+Put back time    : 604.453067
+Full time        : 1795.717066
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 71.354825
+Random fill time : 10.206174
+Split time       : 251.703858
+Merge time       : 166.669955
+Sort time        : 120.472386
+Put back time    : 223.286232
+Full time        : 1055.677387
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 65.389323
+Random fill time : 40.772887
+Split time       : 596.954686
+Merge time       : 10.508551
+Sort time        : 496.146614
+Put back time    : 606.814646
+Full time        : 1816.887418
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 67.378329
+Random fill time : 11.016877
+Split time       : 316.552328
+Merge time       : 166.547782
+Sort time        : 119.614880
+Put back time    : 229.816282
+Full time        : 1122.862361
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.146216
+Random fill time : 39.670882
+Split time       : 604.287194
+Merge time       : 10.540375
+Sort time        : 479.199103
+Put back time    : 605.130744
+Full time        : 1805.566192
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 68.307045
+Random fill time : 10.528995
+Split time       : 299.928719
+Merge time       : 165.591846
+Sort time        : 120.278198
+Put back time    : 220.321097
+Full time        : 1095.117970
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 66.332131
+Random fill time : 39.726176
+Split time       : 598.354798
+Merge time       : 10.535475
+Sort time        : 478.833572
+Put back time    : 605.445295
+Full time        : 1799.744191
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 69.073306
+Random fill time : 10.274092
+Split time       : 313.818152
+Merge time       : 167.585273
+Sort time        : 120.643823
+Put back time    : 220.486640
+Full time        : 1113.292052
+Threads: 1, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 60.026454
+Random fill time : 39.730839
+Split time       : 595.975230
+Merge time       : 10.509061
+Sort time        : 479.622595
+Put back time    : 604.732311
+Full time        : 1790.908689
+Threads: 4, Size: 4000000, chunk: 1000000, buckets: 4000000
+
+Time of parts of program [ms]:
+Init time        : 70.866903
+Random fill time : 10.217451
+Split time       : 258.588545
+Merge time       : 166.233830
+Sort time        : 119.826323
+Put back time    : 224.619983
+Full time        : 1062.840292
